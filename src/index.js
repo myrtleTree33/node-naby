@@ -8,7 +8,7 @@ const { PORT } = process.env;
 const app = express();
 
 // middleware
-app.use(loggingMiddleware);
+app.use(loggingMiddleware());
 
 app.get('/', (req, res) => res.send('Hello World!'));
 

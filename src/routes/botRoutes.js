@@ -9,7 +9,6 @@ const routes = Router();
  */
 routes.get('/', async (req, res) => {
   res.json({ message: 'Welcome to bot routes!' });
-  return Promise.resolve();
 });
 
 export default routes;
